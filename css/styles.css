@@ -1,4 +1,73 @@
-body {
-  font-family: sans-serif;
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primery-bg-color: #f5f4fa;
 }
-body
+/* основной фон */
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+/* логотип */
+.logo {
+  color: var(--accent-color);
+}
+/* список */
+ul {
+  list-style: none;
+}
+/* навигацыя сайта */
+.site-nav-list .link {
+  color: var(--primary-text-color);
+}
+/* состояние наведения */
+.site-nav-list .link:hover {
+  color: var(--accent-color);
+}
+.site-nav-list .link.current {
+  color: var(--accent-color);
+}
+/* состояние в фокусе */
+.site-nav-list .link:focus {
+  color: var(--accent-color);
+}
+/* ссылки */
+.auth-nav-list .link {
+  color: var(--title-text-color);
+}
+/* состояние наведения */
+.auth-nav-list .link:hover {
+  color: var(--accent-color);
+}
+/* состояние в фокусе */
+.auth-nav-list .link:focus {
+  color: var(--accent-color);
+}
+/* цвет заголовков */
+.section-title {
+  color: var(--primary-text-color);
+}
+/* цвет абзаца */
+.section-text {
+  color: var(--title-text-color);
+}
+/* кнопка веб студии */
+.button-primery {
+  color: #fff;
+  background-color: var(--accent-color);
+}
+/* кнопки портфолио */
+.button-secondary {
+  color: var(--primary-text-colora);
+  background-color: var(--primery-bg-color);
+}
+/* состояние ховер */
+.button-secondary:hover {
+  color: #fff;
+  background-color: var(--accent-color);
+}
+/* состояние фокус */
+.button-secondary:focus {
+  background-color: var(--accent-color);
+}
