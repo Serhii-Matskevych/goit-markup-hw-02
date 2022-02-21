@@ -19,6 +19,9 @@ body {
   line-height: 1.19px;
   letter-spacing: 0.03em;
 }
+.studio {
+  color: #000;
+}
 /* список */
 ul {
   list-style: none;
