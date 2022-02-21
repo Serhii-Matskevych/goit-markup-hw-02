@@ -16,7 +16,7 @@ body {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .studio {
@@ -31,7 +31,7 @@ ul {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 /* состояние наведения */
@@ -50,7 +50,7 @@ ul {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 /* состояние наведения */
@@ -65,7 +65,7 @@ ul {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -76,14 +76,14 @@ ul {
   color: #fff;
   background-color: var(--accent-color);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
 }
 
 .section-title {
   color: var(--primary-text-color);
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -92,20 +92,20 @@ ul {
   color: var(--title-text-color);
   font-family: Roboto;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 /* чем мы занимаемся */
 .development {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
 /* наша команда */
 .command {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -113,20 +113,20 @@ ul {
 .name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 /* должность */
 .profession {
   color: var(--title-text-color);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 .geolocation {
   color: #212121;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 /* кнопки портфолио */
@@ -136,7 +136,7 @@ ul {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   letter-spacing: 0.03em;
 }
 /* состояние ховер */
@@ -158,12 +158,12 @@ ul {
 }
 .card-title {
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .card-text {
   color: var(--title-text-color);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
