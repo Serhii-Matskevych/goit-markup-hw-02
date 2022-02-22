@@ -3,10 +3,13 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --primery-bg-color: #f5f4fa;
+  --header-logo-color: #000;
+  --footer-logo-color: #fff;
+  --footer-bg-color: #2f303a;
 }
 /* основной фон */
 body {
-  background-color: #fff;
+  background-color: #ececec;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -18,51 +21,62 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
-.studio {
-  color: #000;
+.logo-header {
+  color: var(--header-logo-color);
+}
+
+.logo-footer {
+  color: var(--footer-logo-color);
 }
 /* список */
 ul {
   list-style: none;
 }
 /* навигацыя сайта */
-.site-nav-list .link {
+.link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 /* состояние наведения */
-.site-nav-list .link:hover {
+.link:hover {
   color: var(--accent-color);
 }
-.site-nav-list .link.current {
+.link.current {
   color: var(--accent-color);
 }
 /* состояние в фокусе */
-.site-nav-list .link:focus {
+.link:focus {
   color: var(--accent-color);
 }
 /* ссылки */
-.auth-nav-list .link {
+.auth-link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 /* состояние наведения */
-.auth-nav-list .link:hover {
+.auth-link:hover {
   color: var(--accent-color);
 }
 /* состояние в фокусе */
-.auth-nav-list .link:focus {
+.auth-link:focus {
   color: var(--accent-color);
 }
 /* герой */
+.hero {
+  background-color: var(--header-logo-color);
+}
 .hero-title {
+  color: var(--footer-logo-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -72,6 +86,7 @@ ul {
 }
 /* кнопка веб студии */
 .button-primery {
+  cursor: pointer;
   font-family: Roboto;
   color: #fff;
   background-color: var(--accent-color);
@@ -124,13 +139,20 @@ ul {
   letter-spacing: 0.03em;
 }
 .geolocation {
-  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--footer-logo-color);
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
+
 /* кнопки портфолио */
 .button-secondary {
+  cursor: pointer;
   color: var(--primary-text-colora);
   background-color: var(--primery-bg-color);
   font-family: Roboto;
@@ -149,13 +171,7 @@ ul {
   color: #fff;
   background-color: var(--accent-color);
 }
-.button-secondary:cursor {
-  cursor: pointer;
-}
 
-.pointer {
-  cursor: pointer;
-}
 .card-title {
   font-size: 18px;
   line-height: 2;
@@ -166,4 +182,7 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+.footer-page {
+  background-color: var(--footer-bg-color);
 }
